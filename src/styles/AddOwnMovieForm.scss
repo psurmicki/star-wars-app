@@ -1,0 +1,25 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.2);
+  padding: .75rem;
+}
+
+.FormAddMovieButton {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: .75rem;
+}
+
+.FormSelect {
+  color: black;
+
+  label {
+    color: #f5deb3;
+  }
+  
+}

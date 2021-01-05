@@ -1,0 +1,19 @@
+@import url(//db.onlinewebfonts.com/c/c00548f5d217ed324ae9096051927001?family=STARWARS);
+@import '~bootstrap/scss/bootstrap.scss';
+
+.Header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffff00;
+  padding: 5px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+
+  h1 {
+    font-family: 'STARWARS',Arial, Helvetica, sans-serif;
+    font-size: 60px;
+  }
+
+}
