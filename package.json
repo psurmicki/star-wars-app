@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development --hot  --open --port 3030",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -45,5 +46,5 @@
   "bugs": {
     "url": "https://github.com/psurmicki/star-wars-app/issues"
   },
-  "homepage": "https://github.com/psurmicki/star-wars-app#readme"
+  "homepage": "https://github.com/psurmicki/star-wars-app"
 }

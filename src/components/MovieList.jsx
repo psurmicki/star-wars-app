@@ -17,7 +17,7 @@ const MovieList = ({ movies }) => {
 
   useEffect(() => {
     dispatch({ type: 'SET_MOVIE_LIST', payload: movies });
-    setPath('https://swapi.dev/api/planets/');
+    setPath('http://swapi.dev/api/planets/');
   }, [movies])
 
   return (
