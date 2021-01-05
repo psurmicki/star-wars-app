@@ -9,7 +9,7 @@ const MovieContainer = () => {
   const { data, isLoading } = useData(path);
 
   useEffect(() => {
-    setPath('http://swapi.dev/api/films/');
+    setPath('https://swapi.dev/api/films/');
   }, [path])
 
   return (
