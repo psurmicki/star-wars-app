@@ -1,9 +1,8 @@
 @import '~bootstrap/scss/bootstrap.scss';
 
-.App-backgroundImage {
-  background-image: url('../images/backgroud.jpg');
-  background-size: cover;
+.App {
   height: 100%;
+  background-color: #f1f1f1;
   min-height: 100vh;
   width: 100vw;
 }

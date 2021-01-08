@@ -7,7 +7,7 @@ import '../src/styles/App.scss';
 const App = () => {
   return (
     <Store>
-      <div className='App-backgroundImage'>
+      <div className='App'>
         <Header />
         <MovieContainer />
       </div>
